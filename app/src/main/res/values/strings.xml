@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Galaxy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Hello!</string>
+    <string name="main_text">Learning</string>
+    <string name="login">Login</string>
+    <string name="register">Sign Up</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_flow">Galaxy</string>
+    <string name="title_activity_signup">Sign Up</string>
+    <string name="signin">Sign In</string>
+    <string name="fn">First Name:</string>
+    <string name="stdn">Student ID:</string>
+    <string name="entrfn">Enter your First Name</string>
+    <string name="entrln">Enter your Last Name</string>
+    <string name="entrstd">Enter your Student ID</string>
+    <string name="passw">Enter your Password</string>
+    <string name="btl">Back to Login</string>
+    <string name="pass">Password:</string>
+    <string name="ln">Last Name:</string>
+    <string name="vg">Visit A Gallery</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="earth">Earth</string>
+    <string name="neptune">Neptune</string>
+    <string name="mars">Mars</string>
+    <string name="jupiter">Jupiter</string>
+    <string name="mercury">Mercury</string>
+    <string name="saturn">Saturn</string>
+    <string name="venus">Venus</string>
+  
+
+</resources>

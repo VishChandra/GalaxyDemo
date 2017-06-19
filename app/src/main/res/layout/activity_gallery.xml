@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.vishal.learningjava.GalleryActivity"
+    android:background="@drawable/space" >
+
+   <ImageView
+       android:id="@+id/earth"
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+       android:layout_centerInParent="false"
+       android:clickable="true" />
+
+   <ImageView
+       android:id="@+id/neptune"
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+       android:layout_alignParentRight="true"
+       android:layout_alignTop="@+id/earth"
+       android:clickable="true" />
+
+   <ImageView
+       android:id="@+id/jupiter"
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+       android:layout_alignRight="@+id/neptune"
+       android:layout_alignTop="@+id/saturn"
+       android:clickable="true" />
+
+   <ImageView
+       android:id="@+id/saturn"
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+       android:layout_alignLeft="@+id/earth"
+       android:layout_centerVertical="true"
+       android:clickable="true" />
+
+   <ImageView
+       android:id="@+id/venus"
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+       android:layout_alignLeft="@+id/saturn"
+       android:layout_alignParentBottom="true"
+       android:clickable="true" />
+
+   <ImageView
+       android:id="@+id/mercury"
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+       android:layout_alignLeft="@+id/jupiter"
+       android:layout_alignTop="@+id/venus"
+       android:clickable="true" />
+
+   <TextView
+       android:id="@+id/mercurytxt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignRight="@+id/neptunetxt"
+       android:layout_alignTop="@+id/mercury"
+       android:text="@string/mercury"
+       android:textColor="@color/white"
+       android:textSize="30dp" />
+
+   <TextView
+       android:id="@+id/jupitertxt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignRight="@+id/neptunetxt"
+       android:layout_alignTop="@+id/jupiter"
+       android:text="@string/jupiter"
+       android:textColor="@color/white"
+       android:textSize="30dp" />
+
+   <TextView
+       android:id="@+id/saturntxt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/earth"
+       android:layout_alignTop="@+id/saturn"
+       android:text="@string/saturn"
+       android:textColor="@color/white"
+       android:textSize="30dp" />
+
+   <TextView
+       android:id="@+id/venustxt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignRight="@+id/saturntxt"
+       android:layout_alignTop="@+id/venus"
+       android:text="@string/venus"
+       android:textColor="@color/white"
+       android:textSize="30dp" />
+
+   <TextView
+       android:id="@+id/neptunetxt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignRight="@+id/neptune"
+       android:layout_alignTop="@+id/neptune"
+       android:text="@string/neptune"
+       android:textColor="@color/white"
+       android:textSize="30dp" />
+
+   <TextView
+       android:id="@+id/earthtxt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/venustxt"
+       android:layout_alignTop="@+id/earth"
+       android:text="@string/earth"
+       android:textColor="@color/white"
+       android:textSize="30dp" />
+    
+</RelativeLayout>

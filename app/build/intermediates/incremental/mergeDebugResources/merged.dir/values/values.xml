@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#424242</color>
+    <color name="lightred">#EF9A9A</color>
+    <color name="lired">#283593</color>
+    <color name="red">#1A237E</color>
+    <color name="white">#ffffff</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Hello!</string>
+    <string name="app_name">Galaxy</string>
+    <string name="btl">Back to Login</string>
+    <string name="earth">Earth</string>
+    <string name="entrfn">Enter your First Name</string>
+    <string name="entrln">Enter your Last Name</string>
+    <string name="entrstd">Enter your Student ID</string>
+    <string name="fn">First Name:</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="jupiter">Jupiter</string>
+    <string name="ln">Last Name:</string>
+    <string name="login">Login</string>
+    <string name="main_text">Learning</string>
+    <string name="mars">Mars</string>
+    <string name="mercury">Mercury</string>
+    <string name="neptune">Neptune</string>
+    <string name="pass">Password:</string>
+    <string name="passw">Enter your Password</string>
+    <string name="register">Sign Up</string>
+    <string name="saturn">Saturn</string>
+    <string name="signin">Sign In</string>
+    <string name="stdn">Student ID:</string>
+    <string name="title_activity_flow">Galaxy</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_signup">Sign Up</string>
+    <string name="venus">Venus</string>
+    <string name="vg">Visit A Gallery</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
